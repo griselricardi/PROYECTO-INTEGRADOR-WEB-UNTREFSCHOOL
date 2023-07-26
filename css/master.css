@@ -24,45 +24,6 @@ html{
     text-align: center;
 }
 
-.contenedor{
-    padding: 40px;
-}
-
-.contenedor2{
-    padding: 40px; 
-}
-
-.contenedor3{
-    padding: 40px;
-}
-
-.contenedor4{
-    padding: 40px;
-}
-
-#parr1{
-     padding: 30px;
-     margin: 30px;
-
-}
-
-#parr2{
-    padding: 30px;
-    margin: 30px;
-
-}
-
-#parr3{
-    padding: 30px;
-    margin: 30px;
-
-}
-
-#parr4{
-    padding: 30px;
-    margin: 30px;
-
-}
 
 @media (min-width: 320px) {
    
@@ -105,9 +66,92 @@ html{
         grid-template-columns: repeat(3, 1fr);
     }
 
-    i{
-        color: black;
-        font-size: 4rem;
+    #pp{
+       margin-bottom: 30px
+    }
 
+    #pp2{
+        margin-bottom: 30px
+    }
+
+    #pp3{
+        margin-bottom: 30px
+
+    }
+
+    #pp4{
+        margin-bottom: 30px
+
+    }
+
+
+    #parr1{
+        padding: 0.5px;
+        margin: 30px;
+        
+   }   
+
+    #parr2{
+        padding: 0.5px;
+        margin: 30px;
+    }
+
+    #parr3{
+        padding: 0.5px;
+        margin: 30px;
+    
+    }
+    
+    #parr4{
+        padding: 0.5px;
+        margin: 30px;
+    
+    }
+
+    .contenedor{
+        display: flex;
+        padding: 40px;
+    }
+
+    #nosotros{
+        text-align: center;
+    }
+    
+    .contenedor2{
+        display: flex;
+        padding: 40px; 
+        
+    }
+
+    #elegirnos{
+        text-align: center;
+    }
+    
+    .contenedor3{
+        padding: 40px;
+    }
+
+    #propuesta{
+        text-align: center;
+    }
+    
+    .contenedor4{
+        padding: 40px;
+    }
+    
+    #noticias{
+        text-align: center;
+    }
+
+    #alumnos{
+        width: 500px;
+        height: 300px;
+       margin-left: 15rem;
+    }
+
+    #libros{
+        width: 500px;
+        height: 300px;
+        margin-right: 15rem;
     }
 }
